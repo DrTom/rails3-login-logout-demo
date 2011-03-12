@@ -1,9 +1,10 @@
 LoginDemo::Application.routes.draw do
-  get "login/new"
 
-  get "login/create"
-
-  get "login/delete"
+  controller :login do
+    get 'login'  => :new
+    post 'login' => :create
+    delete 'login' => :delete
+  end
 
   resources :users
 

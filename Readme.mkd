@@ -27,3 +27,7 @@ Rails3 Login Demo
 
 1. generated controller: `Rgenerate controller login new create delete`
 
+2. set up routes, see `routes.rb`, try `:Rake routes`, and
+
+3. delete not used view-templates
+
