@@ -1,4 +1,10 @@
 LoginDemo::Application.routes.draw do
+  get "login/new"
+
+  get "login/create"
+
+  get "login/delete"
+
   resources :users
 
   # The priority is based upon order of creation:

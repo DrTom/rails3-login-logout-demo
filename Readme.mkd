@@ -21,3 +21,9 @@ Rails3 Login Demo
 
 4. migrated database: `Rake db:migrate`
 
+
+3. Session: Login - Logout Functionallity
+-----------------------------------------
+
+1. generated controller: `Rgenerate controller login new create delete`
+
