@@ -31,3 +31,4 @@ Rails3 Login Demo
 
 3. delete not used view-templates
 
+4. set up login page, i.e. forms in `app/views/login/new.html.haml`
