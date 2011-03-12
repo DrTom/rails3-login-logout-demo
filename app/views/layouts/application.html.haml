@@ -8,6 +8,11 @@
   %body
     #session
       = session
+
+    - if session[:user_id]
+      %hr
+      = button_to "Logout", login_path, :method => :delete
+        
     %hr
 
     = yield 

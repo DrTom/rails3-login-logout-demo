@@ -15,6 +15,8 @@ class LoginController < ApplicationController
   end
 
   def delete
+    session[:user_id] = nil
+    redirect_to login_url, :alert => 'loged out'
   end
 
 end
