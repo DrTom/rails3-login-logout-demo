@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+gem 'haml-rails'
+
 gem 'rails', '3.0.5'
 
 # Bundle edge Rails instead:

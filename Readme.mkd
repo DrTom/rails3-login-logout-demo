@@ -1,0 +1,12 @@
+
+Rails3 Login Demo
+=================
+
+1. haml
+-------
+
+1. depend on the `haml-rails` gem, do `bundle install`
+
+2. replace given `application.html.erb` with `application.html.haml`
+
+
