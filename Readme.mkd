@@ -10,3 +10,14 @@ Rails3 Login Demo
 2. replace given `application.html.erb` with `application.html.haml`
 
 
+2. User by Scaffold
+--------------------
+
+1. generated user: `Rgenerate scaffold user name:string password:string`
+
+2. migrated database: `Rake db:migrate`
+
+3. generated migration to intially fill user table `Rgenerate migration add_admin_user`
+
+4. migrated database: `Rake db:migrate`
+
