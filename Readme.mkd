@@ -2,6 +2,30 @@
 Rails3 Login Demo
 =================
 
+Yet an other Rails3 demo that shows basic log-in and log-out
+functionality by using the following technologies and techniques:
+
+* haml - template language 
+
+* full scaffold generation for _user_
+
+* log-in and -out: 
+
+  * controller generation
+
+  * setting up custom routing
+
+  * setting up methods in the controller accordingly 
+
+  * creating a login form 
+
+  * authenticate method in model
+
+
+This is for education only. 
+
+
+
 1. haml
 -------
 
@@ -17,12 +41,12 @@ Rails3 Login Demo
 
 2. migrated database: `Rake db:migrate`
 
-3. generated migration to intially fill user table `Rgenerate migration add_admin_user`
+3. generated migration to initially fill user table `Rgenerate migration add_admin_user`
 
 4. migrated database: `Rake db:migrate`
 
 
-3. Session: Login - Logout Functionallity
+3. Session: Login - Logout Functionality
 -----------------------------------------
 
 1. generated controller: `Rgenerate controller login new create delete`
@@ -33,6 +57,6 @@ Rails3 Login Demo
 
 4. set up login page, i.e. forms in `app/views/login/new.html.haml`
 
-5. set up user-model with autenticate functionality and _create_ method in LoginController
+5. set up user-model with authenticate functionality and _create_ method in LoginController
 
 6. set up logout: logout-button in template,  delete method in login controller 
