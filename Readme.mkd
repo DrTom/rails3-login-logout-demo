@@ -32,3 +32,5 @@ Rails3 Login Demo
 3. delete not used view-templates
 
 4. set up login page, i.e. forms in `app/views/login/new.html.haml`
+
+5. set up user-model with autenticate functionality and _create_ method in LoginController
